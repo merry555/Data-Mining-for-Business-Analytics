@@ -1,0 +1,7 @@
+data("iris")
+str(iris)
+head(iris)
+class(iris)
+lapply(iris[,1:4], mean)
+class(lapply(iris[,1:4], mean))
+sapply(iris[,1:4],mean)
